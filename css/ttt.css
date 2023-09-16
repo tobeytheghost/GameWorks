@@ -1,0 +1,29 @@
+/* Date: August 13, 2023
+Author: mariah Falzon
+Purpose: To get the tic tac toe game to work in assignment 8
+
+Citation: Followed along with video by Bro Codes on YouTube to understand how to make the code run . Code was adapted by BroCode
+
+https://www.youtube.com/watch?v=AnmwHjpEhtA&ab_channel=BroCode
+
+*/
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker";
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
